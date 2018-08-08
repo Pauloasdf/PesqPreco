@@ -1,0 +1,249 @@
+.logo{
+	color: white;
+	font-size: 30px;
+}
+
+a{
+	a:link {
+	color:white;
+	text-decoration:none;
+	}
+	a:hover {
+	color:white;
+	text-decoration:underline;
+	}
+	a:visited {
+	color:white;
+	text-decoration:none;
+	font-family: "Microsoft Sans Serif";
+	}
+	a:active {
+	color:yellow;
+	}
+}
+
+h1{
+
+	color: white;
+    font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#logo2{
+	text-align: center;
+	font-size: 60px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: white;
+	padding-top: -10px;
+}
+
+#logo1{
+	text-align: center;
+	font-size: 60px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	color: yellow;
+}
+
+#corpodapagina{
+	padding-top: 40px;
+	font-size: 25px;
+	line-height: 50px;
+}
+#conteudo1{
+	padding-bottom:-1px;
+	padding-left:20px;
+	padding-right:20px;
+
+}
+
+.itemmenu{
+	padding-top: 0px;
+}
+
+#abaesquerda{
+	padding-top: 20px;
+}
+
+#mombach{
+	transform: rotate(0deg);
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 1px 1px 0.8em #000; 
+}
+#viaII{
+	transform: rotate(0deg);
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 1px 1px 0.8em #000; 
+}
+#imec{
+	transform: rotate(0deg);
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 1px 1px 0.8em #000; 
+}
+#nacional{
+	transform: rotate(0deg);
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	box-shadow: 1px 1px 0.8em #000; 
+}
+
+#nacional:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+       	transform: rotate(0deg);
+        transform: scale(1.0);
+        transition: 0.5s;
+}
+#imec:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+       	transform: rotate(0deg);
+        transform: scale(1.0);
+        transition: 0.5s;
+}
+#viaII:hover{
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+       	transform: rotate(0deg);
+        transform: scale(1.0);
+        transition: 0.5s;
+}
+#mombach:hover{
+		-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+       	transform: rotate(0deg);
+        transform: scale(1.0);
+        transition: 0.5s;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+@media (max-width: 1024px) {
+  .imagem{display: none;}
+  #mombach{display: none;}
+  #imec{display: none;}
+  #nacional{display: none;}
+  #viaII{display: none;}
+  #menudropdown{display: none;}
+  #dropdownMenu1{display: none;}
+  .btn-toggle{display: block;}
+  #imagem-telefone{display: none;}
+  #divadcional{display: none;}
+  #sumirespaço{display: none;}
+}
+
+img.redessociais:hover {
+	transform:rotate(30deg);
+	transition: 0.5s;
+}
+
+.textoconteudo2{
+	color:white;
+	text-align: justify;
+	line-height: 50px;
+}
+
+#conteudo2{
+	padding-top: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.tituloconteudo2{
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	text-transform: uppercase;
+}
+
+.palavra-chave{
+	font-size: 50px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	color: white;
+}
+
+#divtelefone{
+}
+
+/*						PESQUISA						*/
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 90%;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 90%;
+	background-color: #fff;
+	border-color: #66CC75;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color: #999;
+}
+input::-webkit-input-placeholder {
+	color: #999;
+}
+
+/*						DROPDOWN MENU						*/
+
+button#dropdownMenu1:hover {
+		background-color: white;
+		background-color: #560000;
+}
+
+button#dropdownMenu1 {
+	color: white;
+	text-align: left;
+}
+
+h2{
+	color: black;
+	font-size: 30px;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.tituloconteudo4{
+	font-size: 25px;
+}
